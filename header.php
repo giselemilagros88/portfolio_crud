@@ -25,8 +25,24 @@
 </head>
 <body>
 <div class="container">
-    <nav>
-        <a href="index.php">Inicio</a> |
-        <a href="galeria.php">Galeria</a> |
-        <a href="cerrar.php">Cerrar Sesión</a> 
+   
+    
+    <nav class="navbar navbar-expand-lg  navbar-dark bg-dark">
+    <div class="container-fluid">
+       
+        <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.php">Inicio</a> |
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="galeria.php">Galeria</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="cerrar.php">Cerrar Sesión</a> 
+            </li>
+        </ul>
+      
+        </div>
+    </div>
     </nav>
